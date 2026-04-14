@@ -1,0 +1,32 @@
+export const translations = {
+  en: {
+    welcome: "Welcome back,",
+    explore: "Explore my latest creations in the Srijan-Vyom space.",
+    projectGrid: "Project Grid",
+    download: "Download Source Code",
+    order: "Order a Project",
+    resume: "Resume",
+    chatTitle: "Srijan AI",
+    chatPlaceholder: "Ask about a project...",
+    creationSpace: "Creation Space",
+    craftedBy: "Crafted By Divyansh",
+    downloadImages: "Download Images",
+    downloadPDF: "Project Details (PDF)",
+    back: "Go Back",
+  },
+  hi: {
+    welcome: "स्वागत है,",
+    explore: "सृजन-व्योम में मेरी नवीनतम कृतियों को देखें।",
+    projectGrid: "प्रोजेक्ट ग्रिड",
+    download: "सोर्स कोड डाउनलोड करें",
+    order: "प्रोजेक्ट ऑर्डर करें",
+    resume: "रिज्यूमे",
+    chatTitle: "सृजन एआई",
+    chatPlaceholder: "प्रोजेक्ट के बारे में पूछें...",
+    creationSpace: "सृजन व्योम",
+    craftedBy: "दिव्यांश द्वारा निर्मित",
+    downloadImages: "इमेज डाउनलोड करें",
+    downloadPDF: "प्रोजेक्ट विवरण (PDF)",
+    back: "पीछे जाएं",
+  }
+};
