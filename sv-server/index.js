@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import { ClerkExpressRequireAuth } from '@clerk/clerk-sdk-node';
 
 // load env variables
 dotenv.config();
@@ -28,4 +29,15 @@ mongoose.connect(process.env.MONGODB_URI)
     })
     .catch((error) => {
         console.error('MongoDB connection failed:', error.message);
-    });
+});
+
+// clerk auth : public route
+app.get('/api/projects', (req, res) => {
+    res.json({ message: "Public project list" });
+});
+
+// protected route: only logged-in users can submit
+app.post('/api/projects', ClerkExpressRequireAuth(), (req, res) => {
+    // req.auth.userId contains the unique Clerk ID
+    res.status(201).json({ message: "Auth verified, ready for project data" });
+});

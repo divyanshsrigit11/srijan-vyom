@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    welcome: "Welcome back,",
+    welcome: "Welcome,",
     explore: "Explore my latest creations in the Srijan-Vyom space.",
     projectGrid: "Project Grid",
     download: "Download Source Code",
@@ -13,6 +13,22 @@ export const translations = {
     downloadImages: "Download Images",
     downloadPDF: "Project Details (PDF)",
     back: "Go Back",
+    // for navbar
+    overview: "Overview",
+    docs: "Docs",
+    search: "Search",
+    aboutMe: "About Me",
+    login: "Log In",
+    signup: "Sign Up",
+    getStarted: "Get Started",
+    logout: "Log Out",
+    communityChat: "Community Chat",
+    connections: "Connections",
+    useCases: "Use Cases",
+    security: "Security",
+    promotions: "Upcoming Projects",
+    expertise: "Our Expertise",
+    faq: "FAQ",
   },
   hi: {
     welcome: "स्वागत है,",
@@ -28,5 +44,21 @@ export const translations = {
     downloadImages: "इमेज डाउनलोड करें",
     downloadPDF: "प्रोजेक्ट विवरण (PDF)",
     back: "पीछे जाएं",
+    // New Keys for Navbar
+    overview: "अवलोकन",
+    docs: "दस्तावेज़",
+    search: "खोजें",
+    aboutMe: "मेरे बारे में",
+    login: "लॉगिन",
+    signup: "साइन अप",
+    getStarted: "शुरू करें",
+    logout: "लॉगआउट",
+    communityChat: "सामुदायिक चैट",
+    connections: "संपर्क",
+    useCases: "उपयोग के मामले",
+    security: "सुरक्षा",
+    promotions: "आगामी प्रोजेक्ट्स",
+    expertise: "हमारी विशेषज्ञता",
+    faq: "सामान्य प्रश्न",
   }
 };
